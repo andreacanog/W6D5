@@ -1,0 +1,12 @@
+
+
+<h2>All of the cats in the world</h2>
+
+<ul><% @kitties.each do |kitty|  %>
+    <li><%= kitty.name  %></li>
+    <li><%= kitty.color  %></li>
+    <li><%= kitty.birth_date  %></li>
+    <li><%= kitty.sex  %></li>
+    <li><%= kitty.description  %></li>
+<% end %>
+</ul>
